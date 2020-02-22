@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{CF36241F-A7EB-4A24-8BC1-4261E6C18C3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{CF36241F-A7EB-4A24-8BC1-4261E6C18C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Infra", "Facade.Infra\Facade.Infra.csproj", "{22EA30B0-468B-4685-BA59-67D169046AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Domain", "Facade.Domain\Facade.Domain.csproj", "{77565788-EFCD-4C23-B4A4-7FC69847C188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CF36241F-A7EB-4A24-8BC1-4261E6C18C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF36241F-A7EB-4A24-8BC1-4261E6C18C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF36241F-A7EB-4A24-8BC1-4261E6C18C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22EA30B0-468B-4685-BA59-67D169046AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EA30B0-468B-4685-BA59-67D169046AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EA30B0-468B-4685-BA59-67D169046AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EA30B0-468B-4685-BA59-67D169046AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77565788-EFCD-4C23-B4A4-7FC69847C188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77565788-EFCD-4C23-B4A4-7FC69847C188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77565788-EFCD-4C23-B4A4-7FC69847C188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77565788-EFCD-4C23-B4A4-7FC69847C188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
